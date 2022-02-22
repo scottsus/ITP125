@@ -1,0 +1,70 @@
+# Nmap 7.80 scan initiated Tue Feb 22 01:13:41 2022 as: nmap -A -oA Susanto_WinScan 10.1.113.255
+Nmap scan report for ip-10-1-113-255.ec2.internal (10.1.113.255)
+Host is up (0.00079s latency).
+Not shown: 987 closed ports
+PORT      STATE SERVICE        VERSION
+135/tcp   open  msrpc          Microsoft Windows RPC
+139/tcp   open  netbios-ssn    Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds   Windows 7 Enterprise 7601 Service Pack 1 microsoft-ds (workgroup: WORKGROUP)
+554/tcp   open  rtsp?
+|_rtsp-methods: ERROR: Script execution failed (use -d to debug)
+2869/tcp  open  http           Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+3389/tcp  open  ms-wbt-server?
+|_ssl-date: 2022-02-22T01:16:58+00:00; -1s from scanner time.
+5357/tcp  open  http           Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+10243/tcp open  http           Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Not Found
+49152/tcp open  msrpc          Microsoft Windows RPC
+49153/tcp open  msrpc          Microsoft Windows RPC
+49154/tcp open  msrpc          Microsoft Windows RPC
+49155/tcp open  msrpc          Microsoft Windows RPC
+49157/tcp open  msrpc          Microsoft Windows RPC
+MAC Address: 0A:66:7A:FC:90:A9 (Unknown)
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.80%E=4%D=2/22%OT=135%CT=1%CU=40239%PV=Y%DS=1%DC=D%G=Y%M=0A667A%
+OS:TM=621439C6%P=x86_64-pc-linux-gnu)SEQ(SP=107%GCD=1%ISR=10A%TI=I%CI=I%II=
+OS:I%SS=S%TS=7)OPS(O1=M2301NW8ST11%O2=M2301NW8ST11%O3=M2301NW8NNT11%O4=M230
+OS:1NW8ST11%O5=M2301NW8ST11%O6=M2301ST11)WIN(W1=2000%W2=2000%W3=2000%W4=200
+OS:0%W5=2000%W6=2000)ECN(R=Y%DF=Y%T=80%W=2000%O=M2301NW8NNS%CC=N%Q=)T1(R=Y%
+OS:DF=Y%T=80%S=O%A=S+%F=AS%RD=0%Q=)T2(R=Y%DF=Y%T=80%W=0%S=Z%A=S%F=AR%O=%RD=
+OS:0%Q=)T3(R=Y%DF=Y%T=80%W=0%S=Z%A=O%F=AR%O=%RD=0%Q=)T4(R=Y%DF=Y%T=80%W=0%S
+OS:=A%A=O%F=R%O=%RD=0%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R
+OS:=Y%DF=Y%T=80%W=0%S=A%A=O%F=R%O=%RD=0%Q=)T7(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=
+OS:AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%
+OS:RUD=G)IE(R=Y%DFI=N%T=80%CD=Z)
+
+Network Distance: 1 hop
+Service Info: Host: WIN764BIT-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1h14m59s, deviation: 2h30m00s, median: 0s
+|_nbstat: NetBIOS name: WIN764BIT-PC, NetBIOS user: <unknown>, NetBIOS MAC: 0a:66:7a:fc:90:a9 (unknown)
+| smb-os-discovery: 
+|   OS: Windows 7 Enterprise 7601 Service Pack 1 (Windows 7 Enterprise 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: Win764bit-PC
+|   NetBIOS computer name: WIN764BIT-PC\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2022-02-21T20:15:45-05:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2022-02-22T01:15:45
+|_  start_date: 2022-02-22T00:44:06
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   0.79 ms ip-10-1-113-255.ec2.internal (10.1.113.255)
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Feb 22 01:17:58 2022 -- 1 IP address (1 host up) scanned in 257.32 seconds

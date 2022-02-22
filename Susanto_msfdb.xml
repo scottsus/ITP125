@@ -1,0 +1,748 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MetasploitV5>
+<generated time="2022-02-22 01:48:07 UTC" user="student" project="lab3" product="framework"/>
+<hosts>
+  <host>
+    <id>1</id>
+    <created-at>2022-02-22 01:42:13 UTC</created-at>
+    <address>10.1.113.255</address>
+    <mac>0a:66:7a:fc:90:a9</mac>
+    <comm></comm>
+    <name>ip-10-1-113-255.ec2.internal</name>
+    <state>alive</state>
+    <os-name>Windows 2008</os-name>
+    <os-flavor/>
+    <os-sp/>
+    <os-lang/>
+    <arch/>
+    <workspace-id>2</workspace-id>
+    <updated-at>2022-02-22 01:42:15 UTC</updated-at>
+    <purpose>server</purpose>
+    <info/>
+    <comments/>
+    <scope/>
+    <virtual-host/>
+    <note-count>21</note-count>
+    <vuln-count>0</vuln-count>
+    <service-count>13</service-count>
+    <host-detail-count>0</host-detail-count>
+    <exploit-attempt-count>0</exploit-attempt-count>
+    <cred-count>0</cred-count>
+    <detected-arch/>
+    <os-family>Windows</os-family>
+    <host_details>
+    </host_details>
+    <exploit_attempts>
+    </exploit_attempts>
+    <services>
+      <service>
+      <id>1</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>135</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+      </service>
+      <service>
+      <id>2</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>139</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>netbios-ssn</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows netbios-ssn</info>
+      </service>
+      <service>
+      <id>3</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>445</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>microsoft-ds</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Windows 7 Enterprise 7601 Service Pack 1 microsoft-ds workgroup: WORKGROUP</info>
+      </service>
+      <service>
+      <id>4</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>554</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>rtsp</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info></info>
+      </service>
+      <service>
+      <id>5</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>2869</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft HTTPAPI httpd 2.0 SSDP/UPnP</info>
+      </service>
+      <service>
+      <id>6</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>3389</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssl/ms-wbt-server</name>
+      <updated-at>2022-02-22 01:46:54 UTC</updated-at>
+      <info></info>
+      </service>
+      <service>
+      <id>7</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>5357</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft HTTPAPI httpd 2.0 SSDP/UPnP</info>
+      </service>
+      <service>
+      <id>8</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>10243</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft HTTPAPI httpd 2.0 SSDP/UPnP</info>
+      </service>
+      <service>
+      <id>9</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>49152</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+      </service>
+      <service>
+      <id>10</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>49153</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+      </service>
+      <service>
+      <id>11</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>49154</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+      </service>
+      <service>
+      <id>12</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>49155</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+      </service>
+      <service>
+      <id>13</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>49157</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+      </service>
+    </services>
+    <notes>
+      <note>
+      <id>1</id>
+      <created-at>2022-02-22 01:42:13 UTC</created-at>
+      <ntype>nmap.nse.clock-skew.host</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:13 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IjRtZWFuOiAxaDE0bTU5cywgZGV2aWF0aW9uOiAyaDMwbTAwcywgbWVkaWFuOiAwcw==</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>2</id>
+      <created-at>2022-02-22 01:42:13 UTC</created-at>
+      <ntype>nmap.nse.nbstat.host</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:13 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0ImJOZXRCSU9TIG5hbWU6IFdJTjc2NEJJVC1QQywgTmV0QklPUyB1c2VyOiA8dW5rbm93bj4sIE5ldEJJT1MgTUFDOiAwYTo2Njo3YTpmYzo5MDphOSAodW5rbm93bik=</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>3</id>
+      <created-at>2022-02-22 01:42:13 UTC</created-at>
+      <ntype>nmap.nse.smb-os-discovery.host</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:13 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IgIBAQogIE9TOiBXaW5kb3dzIDcgRW50ZXJwcmlzZSA3NjAxIFNlcnZpY2UgUGFjayAxIChXaW5kb3dzIDcgRW50ZXJwcmlzZSA2LjEpCiAgT1MgQ1BFOiBjcGU6L286bWljcm9zb2Z0OndpbmRvd3NfNzo6c3AxCiAgQ29tcHV0ZXIgbmFtZTogV2luNzY0Yml0LVBDCiAgTmV0QklPUyBjb21wdXRlciBuYW1lOiBXSU43NjRCSVQtUENceDAwCiAgV29ya2dyb3VwOiBXT1JLR1JPVVBceDAwCiAgU3lzdGVtIHRpbWU6IDIwMjItMDItMjFUMjA6MTU6NDUtMDU6MDAK</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>4</id>
+      <created-at>2022-02-22 01:42:13 UTC</created-at>
+      <ntype>nmap.nse.smb-security-mode.host</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:13 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IgGKCiAgYWNjb3VudF91c2VkOiA8Ymxhbms+CiAgYXV0aGVudGljYXRpb25fbGV2ZWw6IHVzZXIKICBjaGFsbGVuZ2VfcmVzcG9uc2U6IHN1cHBvcnRlZAogIG1lc3NhZ2Vfc2lnbmluZzogZGlzYWJsZWQgKGRhbmdlcm91cywgYnV0IGRlZmF1bHQp</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>5</id>
+      <created-at>2022-02-22 01:42:13 UTC</created-at>
+      <ntype>nmap.nse.smb2-security-mode.host</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:13 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IjsKICAyLjAyOiAKICAgIE1lc3NhZ2Ugc2lnbmluZyBlbmFibGVkIGJ1dCBub3QgcmVxdWlyZWQ=</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>6</id>
+      <created-at>2022-02-22 01:42:13 UTC</created-at>
+      <ntype>nmap.nse.smb2-time.host</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:13 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IkMKICBkYXRlOiAyMDIyLTAyLTIyVDAxOjE1OjQ1CiAgc3RhcnRfZGF0ZTogMjAyMi0wMi0yMlQwMDo0NDowNg==</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>8</id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <ntype>nmap.nse.rtsp-methods.tcp.554</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id>4</service-id>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IjVFUlJPUjogU2NyaXB0IGV4ZWN1dGlvbiBmYWlsZWQgKHVzZSAtZCB0byBkZWJ1Zyk=</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>9</id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <ntype>nmap.nse.ssl-date.tcp.3389</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id>6</service-id>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IjYyMDIyLTAyLTIyVDAxOjE2OjU4KzAwOjAwOyAtMXMgZnJvbSBzY2FubmVyIHRpbWUu</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>10</id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <ntype>nmap.nse.http-server-header.tcp.5357</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id>7</service-id>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IhpNaWNyb3NvZnQtSFRUUEFQSS8yLjA=</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>11</id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <ntype>nmap.nse.http-title.tcp.5357</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id>7</service-id>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IhhTZXJ2aWNlIFVuYXZhaWxhYmxl</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>12</id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <ntype>nmap.nse.http-server-header.tcp.10243</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id>8</service-id>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IhpNaWNyb3NvZnQtSFRUUEFQSS8yLjA=</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>13</id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <ntype>nmap.nse.http-title.tcp.10243</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id>8</service-id>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0Ig5Ob3QgRm91bmQ=</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>14</id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <ntype>host.os.nmap_fingerprint</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7CToOb3NfdmVuZG9yIg5NaWNyb3NvZnQ6Dm9zX2ZhbWlseSIMV2luZG93czoPb3NfdmVyc2lvbiIJMjAwODoQb3NfYWNjdXJhY3lpZQ==</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>15</id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <ntype>host.last_boot</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BjoJdGltZSIdVHVlIEZlYiAyMiAwMDo0Mzo0NyAyMDIy</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>16</id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <ntype>host.nmap.traceroute</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7CCIJcG9ydGkAIgpwcm90b0kiAAY6BkVGIglob3BzWwZ7CSIIdHRsIgYxIgtpcGFkZHIiETEwLjEuMTEzLjI1NSIIcnR0IgkwLjc5IgluYW1lIiFpcC0xMC0xLTExMy0yNTUuZWMyLmludGVybmFs</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>17</id>
+      <created-at>2022-02-22 01:46:54 UTC</created-at>
+      <ntype>nmap.nse.clock-skew.host</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:46:54 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IjRtZWFuOiAxaDE1bTAwcywgZGV2aWF0aW9uOiAyaDMwbTAwcywgbWVkaWFuOiAwcw==</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>18</id>
+      <created-at>2022-02-22 01:46:54 UTC</created-at>
+      <ntype>nmap.nse.smb-os-discovery.host</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:46:54 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IgIBAQogIE9TOiBXaW5kb3dzIDcgRW50ZXJwcmlzZSA3NjAxIFNlcnZpY2UgUGFjayAxIChXaW5kb3dzIDcgRW50ZXJwcmlzZSA2LjEpCiAgT1MgQ1BFOiBjcGU6L286bWljcm9zb2Z0OndpbmRvd3NfNzo6c3AxCiAgQ29tcHV0ZXIgbmFtZTogV2luNzY0Yml0LVBDCiAgTmV0QklPUyBjb21wdXRlciBuYW1lOiBXSU43NjRCSVQtUENceDAwCiAgV29ya2dyb3VwOiBXT1JLR1JPVVBceDAwCiAgU3lzdGVtIHRpbWU6IDIwMjItMDItMjFUMjA6NDQ6NDAtMDU6MDAK</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>19</id>
+      <created-at>2022-02-22 01:46:54 UTC</created-at>
+      <ntype>nmap.nse.smb-security-mode.host</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:46:54 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IgGICiAgYWNjb3VudF91c2VkOiBndWVzdAogIGF1dGhlbnRpY2F0aW9uX2xldmVsOiB1c2VyCiAgY2hhbGxlbmdlX3Jlc3BvbnNlOiBzdXBwb3J0ZWQKICBtZXNzYWdlX3NpZ25pbmc6IGRpc2FibGVkIChkYW5nZXJvdXMsIGJ1dCBkZWZhdWx0KQ==</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>20</id>
+      <created-at>2022-02-22 01:46:54 UTC</created-at>
+      <ntype>nmap.nse.smb2-time.host</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:46:54 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IkMKICBkYXRlOiAyMDIyLTAyLTIyVDAxOjQ0OjQwCiAgc3RhcnRfZGF0ZTogMjAyMi0wMi0yMlQwMDo0NDowNg==</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>7</id>
+      <created-at>2022-02-22 01:42:13 UTC</created-at>
+      <ntype>host.imported</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id/>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:46:54 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7CDoNZmlsZW5hbWUiLS9ob21lL3N0dWRlbnQvSVRQMTI1L1N1c2FudG9fV2luU2Nhbi54bWw6CXR5cGVJIg1ObWFwIFhNTAY6BkVUOgl0aW1lSXU6CVRpbWUNwYYewLqtYLsJOgl6b25lSSIIVVRDBjsHRjoNbmFub19udW1pAmMCOg1uYW5vX2RlbmkGOg1zdWJtaWNybyIHYRA=</data>
+      <vuln-id/>
+      </note>
+      <note>
+      <id>21</id>
+      <created-at>2022-02-22 01:46:54 UTC</created-at>
+      <ntype>nmap.nse.ssl-date.tcp.3389</ntype>
+      <workspace-id>2</workspace-id>
+      <service-id>6</service-id>
+      <host-id>1</host-id>
+      <updated-at>2022-02-22 01:46:54 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <data>BAh7BiILb3V0cHV0IjUyMDIyLTAyLTIyVDAxOjQ1OjU0KzAwOjAwOyAwcyBmcm9tIHNjYW5uZXIgdGltZS4=</data>
+      <vuln-id/>
+      </note>
+    </notes>
+    <vulns>
+    </vulns>
+  </host>
+</hosts>
+<events>
+  <event>
+      <id>6</id>
+      <workspace-id>2</workspace-id>
+      <host-id/>
+      <created-at>2022-02-22 01:41:12 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2022-02-22 01:41:12 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKaG9zdHM=</info>
+  </event>
+
+  <event>
+      <id>7</id>
+      <workspace-id>2</workspace-id>
+      <host-id/>
+      <created-at>2022-02-22 01:41:55 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2022-02-22 01:41:55 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIwZGJfaW1wb3J0IC9ob21lL3N0dWRlbnQvU3VzYW50b19XaW5TY2FuLnhtbA==</info>
+  </event>
+
+  <event>
+      <id>8</id>
+      <workspace-id>2</workspace-id>
+      <host-id/>
+      <created-at>2022-02-22 01:42:13 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2022-02-22 01:42:13 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCI3ZGJfaW1wb3J0IC9ob21lL3N0dWRlbnQvSVRQMTI1L1N1c2FudG9fV2luU2Nhbi54bWw=</info>
+  </event>
+
+  <event>
+      <id>9</id>
+      <workspace-id>2</workspace-id>
+      <host-id/>
+      <created-at>2022-02-22 01:42:23 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2022-02-22 01:42:23 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKaG9zdHM=</info>
+  </event>
+
+  <event>
+      <id>10</id>
+      <workspace-id>2</workspace-id>
+      <host-id/>
+      <created-at>2022-02-22 01:42:46 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2022-02-22 01:42:46 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIcZGJfbm1hcCAtQSAxMC4xLjExMy4yNTU=</info>
+  </event>
+
+  <event>
+      <id>11</id>
+      <workspace-id>2</workspace-id>
+      <host-id/>
+      <created-at>2022-02-22 01:47:23 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2022-02-22 01:47:23 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIKaG9zdHM=</info>
+  </event>
+
+  <event>
+      <id>12</id>
+      <workspace-id>2</workspace-id>
+      <host-id/>
+      <created-at>2022-02-22 01:47:31 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2022-02-22 01:47:31 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCINc2VydmljZXM=</info>
+  </event>
+
+  <event>
+      <id>13</id>
+      <workspace-id>2</workspace-id>
+      <host-id/>
+      <created-at>2022-02-22 01:47:45 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2022-02-22 01:47:45 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCIUc2VydmljZXMgLXAgMTM1</info>
+  </event>
+
+  <event>
+      <id>14</id>
+      <workspace-id>2</workspace-id>
+      <host-id/>
+      <created-at>2022-02-22 01:48:07 UTC</created-at>
+      <name>ui_command</name>
+      <updated-at>2022-02-22 01:48:07 UTC</updated-at>
+      <critical/>
+      <seen/>
+      <username/>
+      <info>BAh7BjoMY29tbWFuZCI8ZGJfZXhwb3J0IC1mIHhtbCAvaG9tZS9zdHVkZW50L0lUUDEyNS9TdXNhbnRvX21zZmRiLnhtbA==</info>
+  </event>
+
+</events>
+<services>
+  <service>
+      <id>1</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>135</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+  </service>
+
+  <service>
+      <id>2</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>139</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>netbios-ssn</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows netbios-ssn</info>
+  </service>
+
+  <service>
+      <id>3</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>445</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>microsoft-ds</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Windows 7 Enterprise 7601 Service Pack 1 microsoft-ds workgroup: WORKGROUP</info>
+  </service>
+
+  <service>
+      <id>4</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>554</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>rtsp</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info></info>
+  </service>
+
+  <service>
+      <id>5</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>2869</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft HTTPAPI httpd 2.0 SSDP/UPnP</info>
+  </service>
+
+  <service>
+      <id>6</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>3389</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>ssl/ms-wbt-server</name>
+      <updated-at>2022-02-22 01:46:54 UTC</updated-at>
+      <info></info>
+  </service>
+
+  <service>
+      <id>7</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>5357</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft HTTPAPI httpd 2.0 SSDP/UPnP</info>
+  </service>
+
+  <service>
+      <id>8</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>10243</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>http</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft HTTPAPI httpd 2.0 SSDP/UPnP</info>
+  </service>
+
+  <service>
+      <id>9</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>49152</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+  </service>
+
+  <service>
+      <id>10</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>49153</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+  </service>
+
+  <service>
+      <id>11</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>49154</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+  </service>
+
+  <service>
+      <id>12</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>49155</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+  </service>
+
+  <service>
+      <id>13</id>
+      <host-id>1</host-id>
+      <created-at>2022-02-22 01:42:14 UTC</created-at>
+      <port>49157</port>
+      <proto>tcp</proto>
+      <state>open</state>
+      <name>msrpc</name>
+      <updated-at>2022-02-22 01:42:14 UTC</updated-at>
+      <info>Microsoft Windows RPC</info>
+  </service>
+
+</services>
+<web_sites>
+</web_sites>
+<web_pages>
+</web_pages>
+<web_forms>
+</web_forms>
+<web_vulns>
+</web_vulns>
+<module_details>
+</module_details>
+</MetasploitV5>
