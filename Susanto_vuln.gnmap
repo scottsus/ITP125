@@ -1,0 +1,4 @@
+# Nmap 7.80 scan initiated Wed Mar  2 21:57:49 2022 as: nmap -Pn -oA Susanto_vuln --script=vuln 10.1.113.255
+Host: 10.1.113.255 (ip-10-1-113-255.ec2.internal)	Status: Up
+Host: 10.1.113.255 (ip-10-1-113-255.ec2.internal)	Ports: 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 554/open/tcp//rtsp///, 2869/open/tcp//icslap///, 3389/open/tcp//ms-wbt-server///, 5357/open/tcp//wsdapi///, 10243/open/tcp//unknown///, 49152/open/tcp//unknown///, 49153/open/tcp//unknown///, 49154/open/tcp//unknown///, 49155/open/tcp//unknown///, 49156/open/tcp//unknown///	Ignored State: closed (987)
+# Nmap done at Wed Mar  2 21:59:45 2022 -- 1 IP address (1 host up) scanned in 115.96 seconds
