@@ -1,0 +1,27 @@
+# Nmap 7.80 scan initiated Wed Mar  2 22:01:12 2022 as: nmap -sV -oA Susanto_vulners --script=vulners -v 10.1.113.255
+Increasing send delay for 10.1.113.255 from 0 to 5 due to 50 out of 165 dropped probes since last increase.
+Nmap scan report for ip-10-1-113-255.ec2.internal (10.1.113.255)
+Host is up (0.00048s latency).
+Not shown: 987 closed ports
+PORT      STATE SERVICE        VERSION
+135/tcp   open  msrpc          Microsoft Windows RPC
+139/tcp   open  netbios-ssn    Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds   Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+554/tcp   open  rtsp?
+2869/tcp  open  http           Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+3389/tcp  open  ms-wbt-server?
+5357/tcp  open  http           Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+10243/tcp open  http           Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+49152/tcp open  msrpc          Microsoft Windows RPC
+49153/tcp open  msrpc          Microsoft Windows RPC
+49154/tcp open  msrpc          Microsoft Windows RPC
+49155/tcp open  msrpc          Microsoft Windows RPC
+49156/tcp open  msrpc          Microsoft Windows RPC
+MAC Address: 0A:66:7A:FC:90:A9 (Unknown)
+Service Info: Host: WIN764BIT-PC; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar  2 22:03:41 2022 -- 1 IP address (1 host up) scanned in 149.18 seconds
