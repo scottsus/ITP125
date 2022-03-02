@@ -1,0 +1,10 @@
+# Nmap 7.80 scan initiated Wed Mar  2 21:31:48 2022 as: nmap -sV -oA Susanto_vulscan --script=vulscan/vulscan.nse 10.1.113.255
+Nmap scan report for ip-10-1-113-255.ec2.internal (10.1.113.255)
+Host is up (0.00030s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE        VERSION
+3389/tcp open  ms-wbt-server?
+MAC Address: 0A:66:7A:FC:90:A9 (Unknown)
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Mar  2 21:32:04 2022 -- 1 IP address (1 host up) scanned in 16.11 seconds
