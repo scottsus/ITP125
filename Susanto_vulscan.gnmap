@@ -1,4 +1,0 @@
-# Nmap 7.80 scan initiated Wed Mar  2 21:31:48 2022 as: nmap -sV -oA Susanto_vulscan --script=vulscan/vulscan.nse 10.1.113.255
-Host: 10.1.113.255 (ip-10-1-113-255.ec2.internal)	Status: Up
-Host: 10.1.113.255 (ip-10-1-113-255.ec2.internal)	Ports: 3389/open/tcp//ms-wbt-server?///	Ignored State: filtered (999)
-# Nmap done at Wed Mar  2 21:32:04 2022 -- 1 IP address (1 host up) scanned in 16.11 seconds
