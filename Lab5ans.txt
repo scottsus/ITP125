@@ -1,0 +1,16 @@
+Lab 5 Answers
+
+1. The -m flag automatically creates the user's home directory in /home/userX
+https://linuxize.com/post/how-to-create-users-in-linux-using-the-useradd-command/
+
+2. Only User1's password was cracked successfully using hashcat, which took 6 seconds.
+
+3. LUser1 and LUser2's passwords were successfully cracked using John the Ripper after 4 seconds. However after 5 minutes, LUser3's passwords was still uncracked.
+
+4. User1 and User2's passwords were successfully cracked using Jon the Ripper after 3 seconds. Similarly, after 5 minutes, User3's passwords was still uncracked.
+
+5. Only LUSer1's password was cracked using the online Rainbow Table.
+
+6. Crackstation is unable to crack the Kali Linux passwords. This is because it uses a lookup table of every known word from the Wikipedia database. Since our Kali Linux passwords were non-standard english words, it would be natural that crackstation is unable to crack those passwords.
+https://crackstation.net/
+
